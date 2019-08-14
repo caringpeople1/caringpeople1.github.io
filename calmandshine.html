@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <link rel = "stylesheet" href = "calmandshine.css">
-    <link href = "slide."
+    <link rel = "stylesheet" href = "slide.css">
     <title>Calm&Shine</title>
     <link href="https://fonts.googleapis.com/css?family=Cinzel|Indie+Flower|Libre+Caslon+Display|Muli&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cinzel|Darker+Grotesque|EB+Garamond|Indie+Flower|Libre+Caslon+Display|Muli|Playfair+Display|Roboto&display=swap" rel="stylesheet">
-    <script type="text/javascript" src = "slide.js"></script>
-    <img id= "images" src= "calm.jpg">
-    <img id= "images1" src= "calm.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
+    <SCRIPT LANGUAGE='JAVASCRIPT' TYPE='TEXT/JAVASCRIPT'>
+<!--
+var popupWindow=null;
+function popup(mypage,myname,w,h,pos,infocus){
 
+if (pos == 'random')
+{LeftPosition=(screen.width)?Math.floor(Math.random()*(screen.width-w)):100;TopPosition=(screen.height)?Math.floor(Math.random()*((screen.height-h)-75)):100;}
+else
+{LeftPosition=(screen.width)?(screen.width-w)/2:100;TopPosition=(screen.height)?(screen.height-h)/2:100;}
+settings='width='+ w + ',height='+ h + ',top=' + TopPosition + ',left=' + LeftPosition + ',scrollbars=no,location=no,directories=no,status=no,menubar=no,toolbar=no,resizable=no';popupWindow=window.open('',myname,settings);
+if(infocus=='front'){popupWindow.focus();popupWindow.location=mypage;}
+if(infocus=='back'){popupWindow.blur();popupWindow.location=mypage;popupWindow.blur();}
+}
+// -->
+</script>
   </head>
   <body>
   <center>
@@ -27,7 +39,7 @@
   </center>
   <body>
   <center>
-  <h1>How stressed are you today?</h1>
+  <h1 class = "stress_level">How stressed are you today?</h1>
   </center>
 
   <center>
@@ -37,21 +49,16 @@
     <span id="pensive face" style='font-size:35px;'>&#128532;</span>
     <span id="dissappointed face" style='font-size:35px;'>&#128549;</span>
     <span id="crying face" style='font-size:35px;'>&#128557;</span>
-
-    <style>
-      div {
-        padding: 70px;
+  <style>
+    div {
+      padding: 70px;
       }
-    </style>
+  </style>
   </body>
-
   <div class="slidecontainer">
     <input type="range" min="0" max="5" value="0" class="slider" id="myRange">
-
   <center>
-  <h3>
-    <p>Your Stress Level: <span id="demo"></span></p>
-  </h3>
+  <h3><p>Your Stress Level: <span id="demo"></span></p></h3>
   </center>
   </div>
 
@@ -69,7 +76,7 @@
   </center>
 
   <center>
-  <button onclick="update_location("At home")" class="button button5">At Home</button>
+  <button class="button button5">At Home</button>
   <button class="button button5">At School</button>
   <button class="button button5">At Work</button>
   <button class="button button5">In a Public Place</button
@@ -83,14 +90,21 @@
     <footer class="footer" align= center>
     <p>Contact Us</p>
     <ul class="social">
-      <li><a href="https://www.linkedin.com/in/alexis-a-9b372418b/" target="_blank">Alexis' LinkedIn</li>
+      <li><a href="https://www.linkedin.com/in/alexis-a-9b372418b/" target="_blank">Alexis's LinkedIn</li>
       <li><a href="https://www.linkedin.com/in/alisa-logacheva-9a483318b/" target="_blank">Alisa's LinkedIn</li>
       <li><a href="https://www.linkedin.com/in/fairooz-zahin-42983318b/" target="_blank">Fairooz's LinkedIn</li>
       <li><a href="https://www.linkedin.com/in/abigail-rabbany-23709554/" target="_blank">Abigail's LinkedIn</li>
       <li><a href="https://www.linkedin.com/in/donnamoy-denton-0a78a018b/" target="_blank">Donnamoy's LinkedIn</li>
     </ul>
+
+    <ul class="social">
+      <li>aaguiar@queensinquiry.com</li>
+      <li>logacheva.alisa@gmail.com</li>
+      <li>abigailrabbany@gmail.com</li>
+      <li>fairooz6688@hillcresths.org</li>
+      <li>donnamoy.d42@gmail.com</li>
+    </ul>
+
   </footer>
-
   </body>
-
 </html>
