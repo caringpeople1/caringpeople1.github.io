@@ -13,6 +13,9 @@ p{
   color: #000000;
 }
 
+#GWC {
+  color: black;
+}
 
 h1{
   font-size: 75px;
@@ -50,7 +53,7 @@ footer{
 
 .footer p{
   text-align: center;
-  font-size: 20px;
+  font-size: 17px;
   font-family: 'Vollkorn', serif;
 }
 
@@ -176,7 +179,7 @@ footer{
 }
 
 #submit {
-    background-color: Green; /* Green */
+    background-color: #76D7C4; /* Green */
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -191,7 +194,31 @@ footer{
 }
 
 #Tip1 {
-  font-size: 20px
+  font-size: 20px;
   text-align: center;
+  background-image: url("pinkmarble.jpg");
 }
 
+#Tip2 {
+  font-size: 20px;
+  text-align: center;
+  background-image: url("purplemarble.jpg");
+}
+
+#Tip3 {
+  font-size: 20px;
+  text-align: center;
+  background-image: url("whitemarble.jpg");
+}
+
+#Tip4 {
+  font-size: 20px;
+  text-align: center;
+  background-image: url("greenmarble.jpg");
+}
+
+#Tip5 {
+  font-size: 20px;
+  text-align: center;
+  background-image: url("yellowmarble.jpg");
+}
