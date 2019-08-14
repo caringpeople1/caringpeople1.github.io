@@ -1,0 +1,208 @@
+
+
+body {
+background-image: url('marble1.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+p{
+  width:600px;
+  text-align: justify;
+  font-size: 1.3em;
+  font-family: 'Indie Flower', cursive;
+  margin-top: 0px;
+  color: #000000;
+}
+
+
+h1{
+  font-size: 75px;
+  font-family: 'Cinzel', serif;
+  font-family: 'Libre Caslon Display', serif;
+  color: #000000;
+  margin-top: auto;
+
+}
+#images {
+  width: 150px;
+  height: 100px;
+  float:right;
+}
+#images1{
+  width: 150px;
+  height: 100px;
+  float:left;
+}
+
+h2{
+  font-size: 30px;
+  font-family: 'Muli', sans-serif;
+  font-family: 'Indie Flower', cursive;
+  color: #000000;
+  text-align: left;
+  margin-left: 30px;
+  margin-bottom: 1px;
+}
+
+footer{
+  height: 170px;
+  color: #ffb6d9;
+  background: #D6EAF8;
+  margin-top: 30px;
+}
+
+.footer p{
+  text-align: center;
+  margin-left: 300px;
+  font-size: 17px;
+  font-family: 'Muli', sans-serif;
+
+}
+
+.social {
+  text-align: center;
+  margin-right: 90px;
+  margin-left: 90px;
+}
+
+.social li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+  font-family: 'Muli', sans-serif;
+
+}
+
+#where {
+  font-size: 20px;
+  font-size: 20px;
+}
+
+.slidecontainer {
+  width:80%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+#demo{
+  text-align: center;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #17DE8E;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+  text-align: center;
+}
+
+#neutral face {
+  te
+}
+
+.button {
+  background-color: #17DE8E;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.button5 {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 50%;
+}
+
+.bn {
+  background-color: #0F23D5;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.bn {border-radius: 50%}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  color: White;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: middle;
+  color: #white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.popupWindow {
+  background-color: White;
+  font-size: 20px;
+  text-color: black;
+}
+
+#submit {
+    background-color: Green; /* Green */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-style: verdana;
+}
+
+.tips {
+  font-size: 20px;
+  text-align: justify;
+  font-style: bold;
+
+}

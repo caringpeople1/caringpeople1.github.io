@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link rel = "stylesheet" href = "calmandshine.css">
+    <link href = "slide."
+    <title>Calm&Shine</title>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Indie+Flower|Libre+Caslon+Display|Muli&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Darker+Grotesque|EB+Garamond|Indie+Flower|Libre+Caslon+Display|Muli|Playfair+Display|Roboto&display=swap" rel="stylesheet">
+    <script type="text/javascript" src = "slide.js"></script>
+    <img id= "images" src= "calm.jpg">
+    <img id= "images1" src= "calm.jpg">
+
+  </head>
+  <body>
+  <center>
+    <div >
+      <h1> C A L M  &  S H I N E</h1>
+      <div class="topnav" href= "slide.css">
+        <a class="tabs" href="file:///C:/Users/GWC/Desktop/selfcare.HTML">Home</a>
+        <a href="file:///C:/Users/GWC/Desktop/mental_health.html">Mental Health</a>
+        <a href="file:///C:/Users/GWC/Desktop/mental_health.html">Substances</a>
+        <a href="Lifestyle">Lifestyle</a>
+        <a href="Relationships">Relationships</a>
+    <div/>
+  <h2><b>About Us: </b></h2>
+  <p><b>We created this website to help others manage stress. If you check out our survey below, it will give you personalized tips based on how stressed you are and where you are. You can also check out our tabs above to see resources and tips for managing long term stress issues.</b></p>
+  </center>
+  <body>
+  <center>
+  <h1>How stressed are you today?</h1>
+  </center>
+
+  <center>
+    <span id="neutral_face" style='font-size:35px;'>&#128528;</span>
+    <span id="sad face" style='font-size:35px;'>&#128577;</span>
+    <span id="worried face" style='font-size:35px;'>&#128543;</span>
+    <span id="pensive face" style='font-size:35px;'>&#128532;</span>
+    <span id="dissappointed face" style='font-size:35px;'>&#128549;</span>
+    <span id="crying face" style='font-size:35px;'>&#128557;</span>
+
+    <style>
+      div {
+        padding: 70px;
+      }
+    </style>
+  </body>
+
+  <div class="slidecontainer">
+    <input type="range" min="0" max="5" value="0" class="slider" id="myRange">
+
+  <center>
+  <h3>
+    <p>Your Stress Level: <span id="demo"></span></p>
+  </h3>
+  </center>
+  </div>
+
+  <script>
+  var slider = document.getElementById("myRange"); // <input> is the slider var
+  var output = document.getElementById("demo"); // output var is <span>
+  output.innerHTML = slider.value;
+  slider.oninput = function() {
+    output.innerHTML = this.value;
+  }
+  </script>
+
+  <center>
+  <h4 id= where> Where are you right now? </h4>
+  </center>
+
+  <center>
+  <button onclick="update_location("At home")" class="button button5">At Home</button>
+  <button class="button button5">At School</button>
+  <button class="button button5">At Work</button>
+  <button class="button button5">In a Public Place</button
+  </center>
+    <p>
+  <center>
+  <input id="submit" type="button" value="Submit" onClick="popup('file:///C:/Users/GWC/Desktop/Tip1.html','Tip ','640','480','center','front');">
+  </center>
+    </p>
+  <footer>
+    <footer class="footer" align= center>
+    <p>Contact Us</p>
+    <ul class="social">
+      <li><a href="https://www.linkedin.com/in/alexis-a-9b372418b/" target="_blank">Alexis' LinkedIn</li>
+      <li><a href="https://www.linkedin.com/in/alisa-logacheva-9a483318b/" target="_blank">Alisa's LinkedIn</li>
+      <li><a href="https://www.linkedin.com/in/fairooz-zahin-42983318b/" target="_blank">Fairooz's LinkedIn</li>
+      <li><a href="https://www.linkedin.com/in/abigail-rabbany-23709554/" target="_blank">Abigail's LinkedIn</li>
+      <li><a href="https://www.linkedin.com/in/donnamoy-denton-0a78a018b/" target="_blank">Donnamoy's LinkedIn</li>
+    </ul>
+  </footer>
+
+  </body>
+
+</html>
