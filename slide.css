@@ -1,0 +1,218 @@
+body {
+background-image: url('marble1.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+p{
+  width:600px;
+  text-align: justify;
+  font-size: 1.3em;
+  font-family: 'Poiret One', cursive;
+  margin-top: 0px;
+  color: #000000;
+}
+
+#GWC {
+  color: black;
+}
+
+h1{
+  font-size: 75px;
+  font-family: 'Libre Caslon Display', serif;
+  color: #000000;
+  margin-top: auto;
+}
+
+.stress_level {
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+#where {
+  font-size: 30px;
+  font-family: 'Poiret One', cursive;
+}
+
+h2{
+  font-size: 30px;
+  font-family: 'Poiret One', cursive;
+  color: #000000;
+  text-align: left;
+  margin-left: 330px;
+  margin-bottom: 1px;
+}
+
+footer{
+  height: 170px;
+  color: #ffb6d9;
+  background: #D6EAF8;
+  margin-top: 100px;
+}
+
+.footer p{
+  text-align: center;
+  font-size: 17px;
+  font-family: 'Vollkorn', serif;
+}
+
+.social {
+  text-align: center;
+  margin-right: 90px;
+  margin-left: 90px;
+}
+
+.social li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 7px;
+  font-family: 'Vollkorn', serif;
+  color: #000000;
+}
+
+.slidecontainer {
+  width:80%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+#demo{
+  text-align: center;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #17DE8E;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+
+.button {
+  background-color: #D7BDE2;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.button5 {border-radius: 50%;}
+
+.bn {
+  background-color: #A2D9CE;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.bn {border-radius: 50%}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  color: White;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: middle;
+  color: #white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #D6EAF8;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.popupWindow {
+  background-color: White;
+  font-size: 20px;
+  text-color: black;
+}
+
+#submit {
+    background-color: #76D7C4; /* Green */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-style: verdana;
+}
+
+.tips {
+  font-size: 20px;
+  text-align: justify;
+  font-style: bold;
+}
+
+#Tip1 {
+  font-size: 20px;
+  text-align: center;
+  background-image: url("");
+}
+
+#Tip2 {
+  font-size: 20px;
+  text-align: center;
+  background-image: url("");
+}
+
+#Tip3 {
+  font-size: 20px;
+  text-align: center;
+  background-image: url("");
+}
+
+#Tip4 {
+  font-size: 20px;
+  text-align: center;
+  background-image: url("");
+}
