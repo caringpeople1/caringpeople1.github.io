@@ -12,13 +12,11 @@
 
   <body>
     <center>
-     <div class="topnav" href= "selfcare.css">
-      <a href="file:///C:/Users/GWC/Desktop/calmandshinehtml.html">Home</a>
-       <a href="file:///C:/Users/GWC/Desktop/mentalhealthhtml.html">Mental Health</a>
-      <a href="file:///C:/Users/GWC/Desktop/mental_health.html">Substances</a>
-      <a  href="Lifestyle">Lifestyle</a>
-      <a href="Relationships">Relationship</a>
-     <div/>
+    <div class="topnav" href= "slide.css">
+        <a href="file:///C:/Users/GWC/Desktop/sldie.HTML">Home</a>
+        <a href="file:///C:/Users/GWC/Desktop/mentalhealth.html">Mental Health</a>
+        <a  href="Lifestyle">Lifestyle</a>
+    <div/>
   <h1> C A L M  &  S H I N E</h1>
   <h2><b>About Us: </b></h2>
   <p><b>With the help of<u><a id = "GWC" href="https://www.linkedin.com/in/alexis-a-9b372418b/" target="_blank">Girls Who Code</a></u>we created this website to help others manage stress. If you check out our survey below, it will give you personalized tips based on how stressed you are and where you are at the moment. You can also check out our tabs above to see resources and tips for managing long term stress issues.</b></p>
@@ -31,20 +29,20 @@
 
   <center>
     <span id="neutral_face" style='font-size:35px;'>&#128528;</span>
-    <span id="sad face" style='font-size:35px;'>&#128577;</span>
-    <span id="worried face" style='font-size:35px;'>&#128543;</span>
-    <span id="pensive face" style='font-size:35px;'>&#128532;</span>
-    <span id="dissappointed face" style='font-size:35px;'>&#128549;</span>
-    <span id="crying face" style='font-size:35px;'>&#128557;</span>
-
+    <span id="sad_face" style='font-size:35px;'>&#128577;</span>
+    <span id="worried_face" style='font-size:35px;'>&#128543;</span>
+    <span id="pensive_face" style='font-size:35px;'>&#128532;</span>
+    <span id="dissappointed_face" style='font-size:35px;'>&#128549;</span>
+    <span id="crying_face" style='font-size:35px;'>&#128557;</span>
     </body>
 
   <div class="slidecontainer">
-    <input onClick= "update_location('01')"type="range" min="0" max="5" value="0" class="slider" id="myRange" >
-  <center>
-  <h3><p>Your Stress Level: <span id="demo"></span></p></h3>
-  </center>
+  <input onClick= "update_location('01')"type="range" min="0" max="5" value="0" class="slider" id="myRange" >
   </div>
+
+<center>
+<h3><p id="stress"> Your Stress Level: <span id="demo"></span></p></h3>
+</center>
 
   <script>
   var slider = document.getElementById("myRange"); // <input> is the slider var
