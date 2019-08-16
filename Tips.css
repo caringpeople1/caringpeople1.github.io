@@ -1,12 +1,15 @@
 body{
-  background-image: url('yellow_marble.jpg');
+  background-image: url('marble1.jpg');
   margin-right: 200px;
-  font-size: 20px;
+  font-family: Poiret One, cursive;
+  font-size: 25px;
+  font-weight: bold;
 }
 h1{
-  font-size: 60px;
+  font-family: Poiret One, cursive;
+  font-size: 40px;
 }
 
 h3{
-  font-size: 40px;
+  font-size: 45px;
 }
