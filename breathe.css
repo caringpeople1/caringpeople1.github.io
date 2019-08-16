@@ -1,0 +1,17 @@
+body{
+  background-image: url("breath_marble.jpg");
+  text-align: center;
+}
+#breathe_in{
+  text-align: center;
+  width:500px;
+  height:550px;
+
+}
+
+h1{
+  font-size: 40px;
+  font-family: 'Poiret One', cursive;
+  color: #000000;
+  margin-top: auto;
+}
