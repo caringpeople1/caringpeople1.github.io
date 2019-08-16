@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link rel = "stylesheet" href = "slide.css">
+  <title>Tip#2</title>
+  <head/>
+<body id = "Tip2">
+  <div class= "tips" id="Tip2">
+  <h3>Tip #2 </h3>
+  <p>
+    <p>
+      Exercise increases your overall health and your sense of well-being, which puts more pep in your step every day. But exercise also has some direct stress-busting benefits. It pumps up your endorphins. Physical activity helps bump up the production of your brain's feel-good neurotransmitters, called endorphins.
+    </p>
+  </p>
+  </div>
+</body>
+</html>
