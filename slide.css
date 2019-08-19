@@ -192,27 +192,30 @@ footer{
   text-align: justify;
   font-style: bold;
 }
-
-#Tip1 {
-  font-size: 20px;
-  text-align: center;
-  background-image: url("");
+#neutral_face {
+  padding: 70px
 }
 
-#Tip2 {
-  font-size: 20px;
-  text-align: center;
-  background-image: url("");
+#sad_face {
+  padding: 70px
 }
 
-#Tip3 {
-  font-size: 20px;
-  text-align: center;
-  background-image: url("");
+#worried_face {
+  padding: 70px
 }
 
-#Tip4 {
-  font-size: 20px;
+#pensive_face {
+  padding: 70px
+}
+
+#dissappointed_face {
+  padding: 70px
+}
+
+#crying_face {
+  padding: 70px
+}
+
+#stress {
   text-align: center;
-  background-image: url("");
 }
