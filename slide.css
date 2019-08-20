@@ -73,6 +73,7 @@ footer{
 
 .slidecontainer {
   width:80%;
+  margin-top: 25px;
 }
 
 .slider {
@@ -179,12 +180,13 @@ footer{
 }
 
 #submit {
-    background-color: #76D7C4; /* Green */
+    background-color: #76D7C4;
     color: white;
     padding: 15px 32px;
     text-align: center;
     font-size: 16px;
     font-style: verdana;
+    border-radius: 50%;
 }
 
 .tips {
@@ -194,6 +196,7 @@ footer{
 }
 #neutral_face {
   padding: 70px
+
 }
 
 #sad_face {
