@@ -22,40 +22,40 @@ function open_tip() {
   console.log("stresslevel: ", stresslevel);
   console.log("place: ", place);
   if (place == "Home" && (stresslevel == 0 || stresslevel == 1)) {
-    popup('Tip1.html','tip','640','480','center','front')
+    popup('file:///C:/Users/GWC/Desktop/all%20html%20files/Tip1.html','tip','640','480','center','front')
   }
   if (place == "Home"&& (stresslevel == 2 || stresslevel == 3)) {
-    popup('Tip2.html','tip','640','480','center','front')
+    popup('file:///C:/Users/GWC/Desktop/all%20html%20files/Tip2.html','tip','640','480','center','front')
   }
   if (place == "Home" && (stresslevel == 4 || stresslevel == 5)) {
-    popup('Tip3.html','tip','640','480','center','front')
+    popup('file:///C:/Users/GWC/Desktop/all%20html%20files/Tip3.html','tip','640','480','center','front')
   }
   if (place == "School" && (stresslevel == 0 || stresslevel == 1)) {
-    popup('Tip4.html','tip','640','480','center','front')
+    popup('file:///C:/Users/GWC/Desktop/all%20html%20files/Tip4.html','tip','640','480','center','front')
   }
   if (place == "School" && (stresslevel == 2 || stresslevel == 3)) {
-    popup('Tip5.html','tip','640','480','center','front')
+    popup('file:///C:/Users/GWC/Desktop/all%20html%20files/Tip5.html','tip','640','480','center','front')
   }
   if (place == "School" && (stresslevel == 4 || stresslevel == 5))  {
-    popup('Tip6.html','tip','640','480','center','front')
+    popup('file:///C:/Users/GWC/Desktop/all%20html%20files/Tip6.html','tip','640','480','center','front')
   }
   if (place == "Work"  && (stresslevel == 0 || stresslevel == 1)) {
-    popup('Tip7.html','tip','640','480','center','front')
+    popup('file:///C:/Users/GWC/Desktop/all%20html%20files/Tip7.html','tip','640','480','center','front')
   }
   if (place == "Work" && (stresslevel == 2 || stresslevel == 3)) {
-    popup('Tip8.html','tip','640','480','center','front')
+    popup('file:///C:/Users/GWC/Desktop/all%20html%20files/Tip8.html','tip','640','480','center','front')
   }
   if (place == "Work" && (stresslevel == 4 || stresslevel == 5)) {
-    popup('Tip9.html','tip','640','480','center','front')
+    popup('file:///C:/Users/GWC/Desktop/all%20html%20files/Tip9.html','tip','640','480','center','front')
   }
   if (place == "Public Place" && (stresslevel == 0 || stresslevel == 1)) {
-    popup('Tip10.html','tip','640','480','center','front')
+    popup('file:///C:/Users/GWC/Desktop/all%20html%20files/Tip10.html','tip','640','480','center','front')
   }
   if (place == "Public Place" && (stresslevel == 2 || stresslevel == 3)) {
-    popup('Tip11.html','tip','640','480','center','front')
+    popup('file:///C:/Users/GWC/Desktop/all%20html%20files/Tip11.html','tip','640','480','center','front')
   }
   if (place == "Public Place" && (stresslevel == 4 || stresslevel == 5)) {
-    popup('Tip12.html','tip','640','480','center','front')
+    popup('file:///C:/Users/GWC/Desktop/all%20html%20files/Tip12.html','tip','640','480','center','front')
   }
 }
 
