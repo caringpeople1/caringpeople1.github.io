@@ -15,6 +15,7 @@ p{
 
 #GWC {
   color: black;
+  align-content: center;
 }
 
 h1{
@@ -195,30 +196,35 @@ footer{
   font-style: bold;
 }
 #neutral_face {
-  padding: 70px
+  padding: 90px
 
 }
 
 #sad_face {
-  padding: 70px
+  padding: 90px
 }
 
 #worried_face {
-  padding: 70px
+  padding: 90px
 }
 
 #pensive_face {
-  padding: 70px
+  padding: 90px
 }
 
 #dissappointed_face {
-  padding: 70px
+  padding: 90px
 }
 
 #crying_face {
-  padding: 70px
+  padding: 90px
 }
 
 #stress {
   text-align: center;
+}
+
+.tabs {
+  font-family: Poiret One;
+  background-color: inherit;
 }
